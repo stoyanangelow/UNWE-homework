@@ -28,7 +28,7 @@ public class Physics {
         System.out.printf("The speed of light is %d m/s \n", speed_of_light);
         System.out.printf("The gravity of Earth is %f m/s2 \n", earth_gravity);
         System.out.printf("There are %d stars in the Milky Way Galaxy \n", stars_in_the_milky_way_galaxy);
-        System.out.printf("The raduis of the Earth is %d km \n", radius_of_Earth);
+        System.out.printf("The radius of the Earth is %d km \n", radius_of_Earth);
         System.out.printf("There are %d planets in the Solar System. \n", planets);
         System.out.printf("The largest planet in the Solar System is %s.", largest_planet);
         System.out.printf("The gravity of Jupiter is %f m/s2 \n", jupiter_gravity);
