@@ -28,10 +28,10 @@ public class Hypotenuse3 {
                     c = Math.sqrt(a * a + b * b);
                     System.out.println("This is an isosceles triangle.");
 
-                    System.out.printf("The length is: %.2f", c);
+                    System.out.printf("The length is: %.2f\n", c);
                 } else {
                     c = Math.sqrt(a * a + b * b);
-                    System.out.printf("The length is: %.2f", c);
+                    System.out.printf("The length is: %.2f\n", c);
 
                 }
             }
