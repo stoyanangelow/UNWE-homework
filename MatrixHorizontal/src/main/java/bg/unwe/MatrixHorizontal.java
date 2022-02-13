@@ -16,19 +16,19 @@ public class MatrixHorizontal {
         System.out.print("How many columns? ");
         columns = s.nextInt();
 
-        int Number[][] = new int[columns][rows];
+        int Number[][] = new int[rows][columns];
         int i, j, q;
-        q = 0;
+        q = 1;
 
-        for (i = 0; i < columns; i++) {
-            for (j = 0; j < rows; j++) {
+        for (i = 0; i < rows; i++) {
+            for (j = 0; j < columns; j++) {
                 Number[i][j] = q;
                 q++;
             }
         }
 
-        for (i = 0; i < columns; i++) {
-            for (j = 0; j < rows; j++) {
+        for (i = 0; i < rows; i++) {
+            for (j = 0; j < columns; j++) {
                 System.out.print(Number[i][j] + "\t");
             }
             System.out.println();
